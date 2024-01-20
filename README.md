@@ -1,1 +1,1 @@
-# kernel-trick-support-vector-machine
+# kernel trick support vector machine
