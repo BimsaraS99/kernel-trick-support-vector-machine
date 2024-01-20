@@ -42,10 +42,21 @@ kernel='rbf', gamma='scale'
 Appropriate for data with a sigmoid (S-shaped) separation boundary.
 kernel='sigmoid'
 
+![image](https://github.com/BimsaraS99/kernel-trick-support-vector-machine/assets/107334404/62dfef7d-6b5b-4be3-b93e-becff640cf23)
+
+
 ## Gamma and C Values
 
 ### Gamma
 Gamma determines the influence of a single training example, affecting the shape of the decision boundary. A smaller gamma results in a more generalized decision boundary, while a larger gamma may lead to a more complex, tightly fitted boundary.
 
+![image](https://github.com/BimsaraS99/kernel-trick-support-vector-machine/assets/107334404/f3386a71-32a8-4989-996d-01f0d653c475)
+
+
 ### C
 C is the regularization parameter, controlling the trade-off between achieving a smooth decision boundary and classifying training points correctly. A smaller C encourages a smoother boundary, while a larger C allows the SVM to focus on classifying training points accurately.
+If C is small, the penalty for misclassified points is low, so a decision boundary with a large margin is chosen.
+If C is large, SVM tries to minimize the number of misclassified examples due to high penalty, which results in a decision boundary with a small margin.
+
+![image](https://github.com/BimsaraS99/kernel-trick-support-vector-machine/assets/107334404/0ab77759-5939-4428-8a51-fbab562f4b79)
+
